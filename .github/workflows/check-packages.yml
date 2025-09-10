@@ -5,7 +5,9 @@ on:
   push:
     branches:
       - main
-
+permissions:
+  contents: read
+  
 jobs:
   verify-malicious-npm-pkg:
     runs-on: ubuntu-latest
