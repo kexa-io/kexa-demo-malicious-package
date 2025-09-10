@@ -6,11 +6,13 @@ on:
     branches:
       - main
 permissions:
-  contents: write
+  contents: read
 
   
 jobs:
   verify-malicious-npm-pkg:
+    permissions:
+      contents: read
     runs-on: ubuntu-latest
 
     steps:
@@ -22,7 +24,7 @@ jobs:
         id: kexa
         with:
           ENV_VARS: |
-            GH1_GITHUBTOKEN=${{ secrets.GIT_TOKEN }}
+            GH1_GITHUBTOKEN=${{ secrets.GITHUB_TOKEN }}
             MYOWNRULES="./rules"
             NODE_CONFIG_TS_ENV=git
 
