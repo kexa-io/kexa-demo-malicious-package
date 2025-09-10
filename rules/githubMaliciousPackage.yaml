@@ -65,14 +65,6 @@
               criteria:
                 - property: name
                   condition: EQUAL
-                  value: "js-yaml"
-                - property: version
-                  condition: IN
-                  value: ["9.1.1", "10.1.6", "10.1.7", "^4.1.0"]
-            - operator: NAND
-              criteria:
-                - property: name
-                  condition: EQUAL
                   value: "eslint-config-prettier"
                 - property: version
                   condition: IN
