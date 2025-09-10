@@ -22,7 +22,7 @@ jobs:
         id: kexa
         with:
           ENV_VARS: |
-            GH1_GITHUBTOKEN=${{ secrets.GITHUB_TOKEN }}
+            GH1_GITHUBTOKEN=${{ secrets.GIT_TOKEN }}
             MYOWNRULES="./rules"
             NODE_CONFIG_TS_ENV=git
 
