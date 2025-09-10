@@ -1,12 +1,12 @@
 name: Git Kexa Action
-#on:
-#  schedule:
-#    - cron: '15 8 * * *'   # every day at 8:15 am
+
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
-  deploy:
+  verify-malicious-npm-pkg:
     runs-on: ubuntu-latest
 
     steps:
