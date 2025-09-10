@@ -6,7 +6,12 @@ on:
     branches:
       - main
 permissions:
+  actions: read
+  checks: read
   contents: read
+  deployments: read
+  packages: read
+  repository-projects: read
   
 jobs:
   verify-malicious-npm-pkg:
