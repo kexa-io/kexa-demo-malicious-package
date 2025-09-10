@@ -1,0 +1,11 @@
+{ 
+    "github": [
+        {
+            "description": "Github 4urcloud",
+            "prefix": "GH1_",
+            "rules": [
+                "githubMaliciousPackage"
+            ]
+        }
+    ]
+}
