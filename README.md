@@ -1,6 +1,6 @@
 # Scan for shaihuludreturns infected packages
 
-1. Clone this repository
+1. Clone/Fork this repository
 
 2. Add a git secret with name "MY_GIT_TOKEN" and your github token with read access for content if your scanning private repositories
 
