@@ -65,14 +65,6 @@
               criteria:
                 - property: name
                   condition: EQUAL
-                  value: "catch-me-kexa/catch-me-kexa"
-                - property: version
-                  condition: IN
-                  value: ["1.0.0"]
-            - operator: NAND
-              criteria:
-                - property: name
-                  condition: EQUAL
                   value: "eslint-config-prettier"
                 - property: version
                   condition: IN
