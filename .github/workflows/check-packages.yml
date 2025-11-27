@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run Kexa Action
-        uses: 4urcloud/Kexa_githubAction@1.8.4
+        uses: kexa-io/git-action@1.8.6-stable
         id: kexa
         with:
           ENV_VARS: |
