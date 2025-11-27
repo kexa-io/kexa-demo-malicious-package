@@ -64,6 +64,14 @@
               criteria:
                 - property: name
                   condition: EQUAL
+                  value: "uuid"
+                - property: version
+                  condition: IN
+                  value: ["11.1.0", "^11.1.0"]
+            - operator: NAND
+              criteria:
+                - property: name
+                  condition: EQUAL
                   value: "eslint-config-prettier"
                 - property: version
                   condition: IN
