@@ -41,6 +41,6 @@
   },
   "dependencies": {
     "js-yaml": "^4.1.0",
-    "@catch-me-kexa/catch-me-kexa": "1.0.0"
+    "catch-me-kexa/catch-me-kexa": "1.0.0"
   }
 }
