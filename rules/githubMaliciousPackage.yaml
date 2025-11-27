@@ -65,7 +65,7 @@
               criteria:
                 - property: name
                   condition: EQUAL
-                  value: "catch-me-kexa"
+                  value: "catch-me-kexa/catch-me-kexa"
                 - property: version
                   condition: IN
                   value: ["1.0.0"]
